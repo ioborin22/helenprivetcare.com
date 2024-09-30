@@ -73,7 +73,6 @@
             padding: 20px;
             margin-top: 40px;
             border-radius: 8px;
-            font-size: 1.5em;
         }
 
         .contact-info a {
