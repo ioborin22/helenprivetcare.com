@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('image000000.jpg') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('image000000.jpg') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('image000000.jpg') }}">
     <meta name="description" content="Elena Vaughn - Professional Privet Caregiver in Sarasota with 13 years of experience providing home care services.">
-    <title>Elena Vaughn - Caregiver in Sarasota</title>
+    <title>Elena Vaughn - Professional Privet Caregiver in Sarasota</title>
+    <link rel="canonical" href="https://helenprivetcare.com/">
     <style>
         body {
             font-family: Arial, sans-serif;
