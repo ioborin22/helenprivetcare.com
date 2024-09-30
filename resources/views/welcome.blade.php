@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Elena Vaughn - Professional Caregiver in Sarasota with 13 years of experience providing home care services.">
+    <meta name="description" content="Elena Vaughn - Professional Privet Caregiver in Sarasota with 13 years of experience providing home care services.">
     <title>Elena Vaughn - Caregiver in Sarasota</title>
     <style>
         body {
