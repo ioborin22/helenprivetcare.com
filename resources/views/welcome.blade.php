@@ -11,12 +11,13 @@
     <link rel="canonical" href="https://helenprivetcare.com/">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
         }
+
         header {
             background: url('https://extramuralnb.ca/files/images/Banner-3.jpg') no-repeat center center;
             background-size: cover;
@@ -28,48 +29,62 @@
             justify-content: center;
             align-items: center;
         }
+
         header h1 {
             font-size: 3em;
             margin: 0;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.7);
             padding: 10px;
+            border-radius: 8px;
         }
+
         header p {
             font-size: 1.5em;
             margin-top: 10px;
             background-color: rgba(0, 0, 0, 0.5);
-            padding: 5px;
+            padding: 10px;
+            border-radius: 8px;
         }
+
         section {
-            padding: 20px;
+            padding: 30px;
             max-width: 1200px;
             margin: auto;
         }
+
         section h2 {
             font-size: 2.5em;
-            color: #333;
+            color: #008080; /* Добавил цвет для заголовка */
             text-align: center;
+            margin-bottom: 20px;
         }
+
         section p {
             font-size: 1.2em;
             line-height: 1.6;
             margin-bottom: 20px;
+            color: #444;
         }
+
         .contact-info {
             text-align: center;
             font-size: 1.2em;
             background-color: #e0e0e0;
             padding: 20px;
             margin-top: 40px;
+            border-radius: 8px;
         }
+
         .contact-info a {
             color: #007BFF;
             text-decoration: none;
             font-weight: bold;
         }
+
         .contact-info a:hover {
             text-decoration: underline;
         }
+
         .personal-message {
             background-color: #f9f9f9;
             padding: 30px;
@@ -77,6 +92,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-top: 40px;
         }
+
         footer {
             background-color: #333;
             color: white;
@@ -85,17 +101,44 @@
         }
 
         .portrait {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
 
-.portrait img {
-    border-radius: 50%;
-    max-width: 200px;
-    height: auto;
-    border: 3px solid #333;
-}
+        .portrait img {
+            border-radius: 50%;
+            max-width: 200px;
+            height: auto;
+            border: 3px solid #333;
+        }
+
+        /* Стиль для списка услуг */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        ul li {
+            font-size: 1.5em;
+            background-color: #008080; /* Цвет фона для элементов списка */
+            color: white; /* Цвет текста */
+            margin: 10px auto;
+            padding: 15px;
+            border-radius: 10px;
+            max-width: 600px; /* Ограничиваем ширину */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        ul li:hover {
+            background-color: #005f5f; /* Цвет при наведении */
+            transition: background-color 0.3s ease;
+        }
+
+        h2 {
+            color: #008080; /* Цвет для всех заголовков h2 */
+        }
     </style>
 </head>
 <body>
