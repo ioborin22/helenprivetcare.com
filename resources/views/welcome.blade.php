@@ -54,7 +54,7 @@
 
         section h2 {
             font-size: 2.5em;
-            color: #008080; /* Добавил цвет для заголовка */
+            color: #008080;
             text-align: center;
             margin-bottom: 20px;
         }
@@ -73,6 +73,7 @@
             padding: 20px;
             margin-top: 40px;
             border-radius: 8px;
+            font-size: 1.5em;
         }
 
         .contact-info a {
@@ -113,7 +114,6 @@
             border: 3px solid #333;
         }
 
-        /* Стиль для списка услуг */
         ul {
             list-style-type: none;
             padding: 0;
@@ -122,22 +122,45 @@
 
         ul li {
             font-size: 1.5em;
-            background-color: #008080; /* Цвет фона для элементов списка */
-            color: white; /* Цвет текста */
+            background-color: #008080;
+            color: white;
             margin: 10px auto;
             padding: 15px;
             border-radius: 10px;
-            max-width: 600px; /* Ограничиваем ширину */
+            max-width: 600px;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         ul li:hover {
-            background-color: #005f5f; /* Цвет при наведении */
+            background-color: #005f5f;
             transition: background-color 0.3s ease;
         }
 
         h2 {
-            color: #008080; /* Цвет для всех заголовков h2 */
+            color: #008080;
+        }
+        .call-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #008080;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            font-size: 1.5em;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .call-button:hover {
+            background-color: #005f5f;
+            transition: background-color 0.3s ease;
         }
     </style>
 </head>
@@ -186,6 +209,10 @@
 <footer>
     <p>&copy; 2024 Elena Vaughn - Professional Caregiver in Sarasota. All rights reserved.</p>
 </footer>
-
+<a href="tel:+19414025495">
+    <div class="call-button">
+        📞
+    </div>
+</a>
 </body>
 </html>
