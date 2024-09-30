@@ -143,7 +143,7 @@
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: #008080;
+            background-color: #FF6347;
             color: white;
             border: none;
             border-radius: 50%;
@@ -159,7 +159,7 @@
         }
 
         .call-button:hover {
-            background-color: #005f5f;
+            background-color: #E5533C;
             transition: background-color 0.3s ease;
         }
     </style>
